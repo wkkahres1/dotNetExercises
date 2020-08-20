@@ -29,7 +29,7 @@ Chapter 1 - Framework Fundamentals
 		FIRST_CS PROJECT - (needs 2019) this shows how to write and read from a file using Stream (CD project - created my own application)
 	Lesson 3 Constructing Classes  
 		CREATESTRUCT - (needs 2019) shows how to make a struct, and how to make an inherited constructor from a class
-		TIMEREVENTS - (uses 2017) this creates a progressbar in WPF
+		*TIMEREVENTS - (uses 2017) this creates a progressbar in WPF
 	Lesson 4 Converting between Types
 
 Chapter 2 - Input/Output(I/O)
@@ -64,33 +64,33 @@ Chapter 4 - Collections and Generics
 
 Chapter 5 - Serialization
 	Lesson 1 Serializing Objects
-		SERIALIZEPERSON - (uses 2017) - Class Serialization demo
+		*SERIALIZEPERSON - (uses 2017) - Class Serialization demo
 	Lesson 2 XML Serialization
-		SERIALIZEPERSON - (uses 2017) - XML Serialization and Deserialization dmeo
+		*SERIALIZEPERSON - (uses 2017) - XML Serialization and Deserialization dmeo
 	Lesson 3 Custom Serialization
-		SERIALIZEPERSONCUSTOM - (uses 2017) - Custom Serialization and Deserialization demo
+		*SERIALIZEPERSONCUSTOM - (uses 2017) - Custom Serialization and Deserialization demo
 
 Chapter 6 - Graphics
 	Lesson 1 Drawing Graphics
-		GRAPHICSDEMO - (uses 2017) - This was really just me messing around with graphics
+		*GRAPHICSDEMO - (uses 2017) - This was really just me messing around with graphics
 	Lesson 2 Working with Images 
-		IMAGESANDTEXTDEMO - (uses 2017) - This was just me messing around with images and text
+		*IMAGESANDTEXTDEMO - (uses 2017) - This was just me messing around with images and text
 	Lesson 3 Formatting Text
-		IMAGESANDTEXTDEMO - (uses 2017) - This was just me messing around with images and text
+		*IMAGESANDTEXTDEMO - (uses 2017) - This was just me messing around with images and text
 
 Chapter 7 - Threading
 	Lesson 1 Creating Threads
 		SIMPLETHREADINGDEMO - (uses 2017) - Demo that runs multiple threads
 	Lesson 2 Sharing Data
-		SINGLEINSTANCE - (uses 2017) - Use a mutex or a semaphore demo
+		*SINGLEINSTANCE - (uses 2017) - Use a mutex or a semaphore demo
 	Lesson 3 The Asynchronous Programming Model
 		THREADPOOLDEMO - (uses 2017) - uses threadpool to queue up methods on separate threads
 
 Chapter 8 - Application Domain and Services
 	Lesson 1 Creating Application Domains
-		APPDOMAINDEMO - (uses 2017) - Demo for loading an assembly by either Filename or Assembly name
+		*APPDOMAINDEMO - (uses 2017) - Demo for loading an assembly by either Filename or Assembly name
 	Lesson 2 Configuring Application Domains
-		APPDOMAINPRIVDEMO - (uses 2017) - demo for creating an application domain with reduced privilages (legacy code)
+		*APPDOMAINPRIVDEMO - (uses 2017) - demo for creating an application domain with reduced privilages (legacy code)
 	Lesson 3 Creating Windows Services
 		*MONITORWEBSITE - (uses 2017) - Create a service to monitor a website, create the installer, and install, start, and manage the service
 
@@ -98,7 +98,7 @@ Chapter 9 - Installing and Configuring Applications
 	Lesson 1 Configuration Settings
 		* CONNECTIONSTRINGSDEMO - (uses 2017) create a configuration file and store an SQL Server database connection string to it
 	Lesson 2 Creating an Installer
-		? INSTALLERDEMO - (uses 2017) - (Revisit) create custom installer that installs a seaparate C# app
+		*? INSTALLERDEMO - (uses 2017) - (Revisit) create custom installer that installs a seaparate C# app
 	Lesson 3 Using the .NET Framework 2.0 Configuration Tool
 		no associated files for this lab
 	Lesson 4 Configuration Management 
