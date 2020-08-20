@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\bin\Debug\ShowFIlesDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\bin\Debug\ShowFIlesDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\bin\Debug\ShowFIlesDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\obj\Debug\ShowFIlesDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\obj\Debug\ShowFIlesDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\obj\Debug\ShowFIlesDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SHOWFILESDEMO\ShowFIlesDemo\ShowFIlesDemo\obj\Debug\ShowFIlesDemo.pdb

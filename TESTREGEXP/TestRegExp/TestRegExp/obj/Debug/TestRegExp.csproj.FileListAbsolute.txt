@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\bin\Debug\TestRegExp.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\bin\Debug\TestRegExp.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\bin\Debug\TestRegExp.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\obj\Debug\TestRegExp.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\obj\Debug\TestRegExp.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\obj\Debug\TestRegExp.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\TESTREGEXP\TestRegExp\TestRegExp\obj\Debug\TestRegExp.pdb

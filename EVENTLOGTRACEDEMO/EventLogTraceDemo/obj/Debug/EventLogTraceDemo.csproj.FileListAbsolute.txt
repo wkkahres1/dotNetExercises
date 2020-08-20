@@ -1,0 +1,6 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGTRACEDEMO\EventLogTraceDemo\obj\Debug\EventLogTraceDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGTRACEDEMO\EventLogTraceDemo\bin\Debug\EventLogTraceDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGTRACEDEMO\EventLogTraceDemo\bin\Debug\EventLogTraceDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGTRACEDEMO\EventLogTraceDemo\bin\Debug\EventLogTraceDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGTRACEDEMO\EventLogTraceDemo\obj\Debug\EventLogTraceDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGTRACEDEMO\EventLogTraceDemo\obj\Debug\EventLogTraceDemo.pdb

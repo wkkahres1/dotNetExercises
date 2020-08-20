@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\bin\Debug\CompressionDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\bin\Debug\CompressionDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\bin\Debug\CompressionDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\obj\Debug\CompressionDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\obj\Debug\CompressionDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\obj\Debug\CompressionDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\COMPRESSIONDEMO\CompressionDemo\CompressionDemo\obj\Debug\CompressionDemo.pdb

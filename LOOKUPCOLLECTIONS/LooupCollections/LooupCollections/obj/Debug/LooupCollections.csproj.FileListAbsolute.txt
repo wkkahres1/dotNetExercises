@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\bin\Debug\LooupCollections.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\bin\Debug\LooupCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\bin\Debug\LooupCollections.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\obj\Debug\LooupCollections.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\obj\Debug\LooupCollections.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\obj\Debug\LooupCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\LOOKUPCOLLECTIONS\LooupCollections\LooupCollections\obj\Debug\LooupCollections.pdb

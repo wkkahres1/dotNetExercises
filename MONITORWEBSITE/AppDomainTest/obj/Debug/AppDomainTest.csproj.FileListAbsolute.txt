@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\bin\Debug\AppDomainTest.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\bin\Debug\AppDomainTest.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\bin\Debug\AppDomainTest.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\obj\Debug\AppDomainTest.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\obj\Debug\AppDomainTest.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\obj\Debug\AppDomainTest.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MONITORWEBSITE\AppDomainTest\obj\Debug\AppDomainTest.pdb

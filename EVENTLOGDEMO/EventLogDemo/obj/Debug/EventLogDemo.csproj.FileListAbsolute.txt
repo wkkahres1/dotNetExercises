@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\bin\Debug\EventLogDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\bin\Debug\EventLogDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\bin\Debug\EventLogDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\obj\Debug\EventLogDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\obj\Debug\EventLogDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\obj\Debug\EventLogDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\EVENTLOGDEMO\EventLogDemo\obj\Debug\EventLogDemo.pdb

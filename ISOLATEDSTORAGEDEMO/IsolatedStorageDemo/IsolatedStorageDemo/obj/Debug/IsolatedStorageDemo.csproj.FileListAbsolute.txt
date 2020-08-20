@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\bin\Debug\IsolatedStorageDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\bin\Debug\IsolatedStorageDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\bin\Debug\IsolatedStorageDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\obj\Debug\IsolatedStorageDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\obj\Debug\IsolatedStorageDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\obj\Debug\IsolatedStorageDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\ISOLATEDSTORAGEDEMO\IsolatedStorageDemo\IsolatedStorageDemo\obj\Debug\IsolatedStorageDemo.pdb

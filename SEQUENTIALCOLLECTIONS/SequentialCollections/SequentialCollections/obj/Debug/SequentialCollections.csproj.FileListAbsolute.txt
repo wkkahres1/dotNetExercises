@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\bin\Debug\SequentialCollections.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\bin\Debug\SequentialCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\bin\Debug\SequentialCollections.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\obj\Debug\SequentialCollections.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\obj\Debug\SequentialCollections.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\obj\Debug\SequentialCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SEQUENTIALCOLLECTIONS\SequentialCollections\SequentialCollections\obj\Debug\SequentialCollections.pdb

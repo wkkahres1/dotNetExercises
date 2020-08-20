@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\obj\Debug\CustomInstaller.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\obj\Debug\CustomInstaller.csprojAssemblyReference.cache

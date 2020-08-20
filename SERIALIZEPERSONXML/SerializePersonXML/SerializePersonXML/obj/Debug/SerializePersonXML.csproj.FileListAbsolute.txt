@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\bin\Debug\SerializePersonXML.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\bin\Debug\SerializePersonXML.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\bin\Debug\SerializePersonXML.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\obj\Debug\SerializePersonXML.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\obj\Debug\SerializePersonXML.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\obj\Debug\SerializePersonXML.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSONXML\SerializePersonXML\SerializePersonXML\obj\Debug\SerializePersonXML.pdb

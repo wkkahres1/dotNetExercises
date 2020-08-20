@@ -1,0 +1,87 @@
+﻿Installing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+Installing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+Uninstalling assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   uninstall = 
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   uninstall = 
+Installing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   install = 
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   install = 
+Uninstalling assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   uninstall = 
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   uninstall = 
+Installing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   install = 
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   install = 
+Uninstalling assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   uninstall = 
+See the contents of the log file for the C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe assembly's progress.
+The file is located at C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog.
+Committing assembly 'C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe'.
+Affected parameters are:
+   assemblypath = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+   logtoconsole = 
+   logfile = C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\INSTALLERDEMO\ConsoleApp1\bin\Debug\ConsoleApp1.InstallLog
+   uninstall = 

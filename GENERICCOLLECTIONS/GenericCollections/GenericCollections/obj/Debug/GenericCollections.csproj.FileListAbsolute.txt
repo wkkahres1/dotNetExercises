@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\obj\Debug\GenericCollections.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\obj\Debug\GenericCollections.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\bin\Debug\GenericCollections.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\bin\Debug\GenericCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\bin\Debug\GenericCollections.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\obj\Debug\GenericCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\GENERICCOLLECTIONS\GenericCollections\GenericCollections\obj\Debug\GenericCollections.pdb

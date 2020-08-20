@@ -1,0 +1,61 @@
+       //ex: ^\d{5}$ means string must be exactly 5 numeric digits.
+            // ^ - represents the start of the string (without this will allow abcd12345 or drop table customers - 12345
+            // \d - match only numeric digits
+            // {5} - match five characters
+            // $ - match end of input
+
+            //ALWAYS ALWAYS begin regular expressions with ^ and end with a $ to insure that input exactly matches the specified regular
+            //expressions
+
+            //ex: ^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-0]{1,3})(\]?)$ m
+            //matches email addresses ex WalterKahres@gmail.com
+
+            //Other Examples
+            //-----------------------
+            /* 
+             * \b on a boundary car\b == tocar, car\b != carburetor
+             * \B not on a boundary car\B == carburetor, car\B != tocar
+             * *  repeat proceding char ZERO or more to*n == toon, to*n == toooooooon, to*n == tn, to*n != tobn
+             * +  repeat proceding char ONE or more to+n == ton, to+n != tn
+             * {n} match specific number of repeating characters To{3}n == Tooon, To{3}n != ton
+             * {min,max} match specific range of repeating chars to{1,3}n == Ton, Toon, or tooon but NOT tn or toooon
+             * {3,} match must be at least minimum to{3,}n requires 3 or more "o" chars
+             * ? make a character optional - to?n == ton or tn but not toooon
+             * . use this to match any SINGLE Character - to.n == totn or tojn but not ton or tn
+             * [ro] brackets - use this to match one of several character to[ro]n would match toon or torn but not ton or toron
+             * [o-r] range brackets - to match range of characters - to[o-r]n matches toon, topn, toqn, or torn but not toan or toyn
+             * x|y - matches either x or y - z|food matches z or food == zood or food
+             
+             // CHARS used in Regular Expressions
+             * * [0-9] OR use \d - match any numeric digit 
+             * \D - match any NON NUMERIC digit
+             * \s to match any WHITE SPACE digit
+             * \S to match any NON-WHITE SPACE digit
+             * \w to match and WORD character
+             * \W to match any NON-WORD character
+             
+             // parentheses
+             * " " use parentheses to match a group of characters
+             * examples - "foo(loo)[1,3]hoo" matches fooloohoo fooloolooloohoo but not foohoo or foololohoo
+             * "foo(loo|roo|)hoo" matches 
+             
+             // name groups to refer to the matched data later - format "(?<name>pattern)"
+             * example - "foo(?<mid>loo|roo)hoo" matches fooloohoo and you could reference mid later to retrieve loo or roo depending
+             *           on which one you can use
+             *           
+             
+             // Backreferencing
+             *Allows you to search for other instances of characters that match a wildcard, convenient way to find repeating groups 
+             * of characters.
+             * examples - (?<char>\w)\k<char> searches for adjacent paired characters
+             * "I'll have a small coffee" finds matches in the words I'll, small, and coffee
+             * \w finds any single-word character
+             * 
+             * for words search for any group of characters preceded by a space instead of searching for a single character
+             * (?<char>\s\w+)\k<char> finds repeating whole words such as " the the" and also " the theory" 
+             * (?<char>\s\w+)\k<char?\b must be exact same match at the end.
+             * 
+             * backreference refers to most recent definiton of a group (most immediately to the left)
+             * (?<l>a)(?<l>\lb)* matches aababb with capturing patter (a)(ab)(abb)
+
+    */

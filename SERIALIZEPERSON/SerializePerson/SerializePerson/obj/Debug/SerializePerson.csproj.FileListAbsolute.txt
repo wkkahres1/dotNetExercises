@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\bin\Debug\SerializePerson.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\bin\Debug\SerializePerson.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\bin\Debug\SerializePerson.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\obj\Debug\SerializePerson.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\obj\Debug\SerializePerson.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\obj\Debug\SerializePerson.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\SERIALIZEPERSON\SerializePerson\SerializePerson\obj\Debug\SerializePerson.pdb

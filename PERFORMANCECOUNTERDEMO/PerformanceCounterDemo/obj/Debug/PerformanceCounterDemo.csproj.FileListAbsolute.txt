@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\bin\Debug\PerformanceCounterDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\bin\Debug\PerformanceCounterDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\bin\Debug\PerformanceCounterDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\obj\Debug\PerformanceCounterDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\obj\Debug\PerformanceCounterDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\obj\Debug\PerformanceCounterDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\PERFORMANCECOUNTERDEMO\PerformanceCounterDemo\obj\Debug\PerformanceCounterDemo.pdb

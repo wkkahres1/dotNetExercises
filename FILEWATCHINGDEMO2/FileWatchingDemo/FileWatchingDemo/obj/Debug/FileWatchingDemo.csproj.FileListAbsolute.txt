@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\bin\Debug\FileWatchingDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\bin\Debug\FileWatchingDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\bin\Debug\FileWatchingDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\obj\Debug\FileWatchingDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\obj\Debug\FileWatchingDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\obj\Debug\FileWatchingDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\FILEWATCHINGDEMO2\FileWatchingDemo\FileWatchingDemo\obj\Debug\FileWatchingDemo.pdb

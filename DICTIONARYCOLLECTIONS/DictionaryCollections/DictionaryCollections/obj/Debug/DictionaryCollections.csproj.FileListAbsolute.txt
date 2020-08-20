@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\bin\Debug\DictionaryCollections.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\bin\Debug\DictionaryCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\bin\Debug\DictionaryCollections.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\obj\Debug\DictionaryCollections.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\obj\Debug\DictionaryCollections.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\obj\Debug\DictionaryCollections.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\DICTIONARYCOLLECTIONS\DictionaryCollections\DictionaryCollections\obj\Debug\DictionaryCollections.pdb

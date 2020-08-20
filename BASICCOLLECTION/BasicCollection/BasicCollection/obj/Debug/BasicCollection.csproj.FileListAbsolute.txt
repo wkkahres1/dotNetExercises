@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\bin\Debug\BasicCollection.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\bin\Debug\BasicCollection.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\bin\Debug\BasicCollection.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\obj\Debug\BasicCollection.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\obj\Debug\BasicCollection.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\obj\Debug\BasicCollection.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\BASICCOLLECTION\BasicCollection\BasicCollection\obj\Debug\BasicCollection.pdb

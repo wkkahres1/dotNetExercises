@@ -1,0 +1,125 @@
+This repository holds programming examples for .NET.  These examples were inspired using the labs and examples from the book
+'Microsoft .NET Framework 2.0 Application Development Foundation Self Paced Training Kit' by Tony Northrup and Shawn Wildermuth.  
+
+Copy the associated folders to use the programs
+
+A few things to note -
+1) Some of these chapters required use of the CD in the book which I did not use, so in those labs I coded something similar myself.
+Also some of these concepts were deprecated or no longer used with later versions of the .NET Framework.  In those cases, I researched
+new ways of accomplishing similar tasks.  
+
+2) In some of the earlier chapters, I was using Microsoft Visual Stuidio 2019, but most of my coding was done in Microsfoft Visual 
+Studio 2017.  I will annotate these below.
+
+3) Some of these also included some extra heavy commenting. This was done originally as notes for myself.  These files are in their original form
+and I did not remove any of my comments.
+
+4) I also threw in my C# Ultimate Cheatsheet and Regular Expression Notes.
+
+5) * means that I did mostly my own research and coding or it is a particularly interesting project to me
+
+File Descriptions:
+
+Chapter 1 - Framework Fundamentals 
+	Lesson 1 Using Value Types
+		CREATESTRUCT - (needs 2019) shows how to make a struct, and how to make an inherited constructor from a class
+	Lesson 2 Using Common Reference Types
+		LIST-VALUE-TYPES - (needs 2019) this shows how to return value types from attributes
+		SORTSTRING - (needs 2019) this will break down a string and then sort the vaues alphabetically
+		FIRST_CS PROJECT - (needs 2019) this shows how to write and read from a file using Stream (CD project - created my own application)
+	Lesson 3 Constructing Classes  
+		CREATESTRUCT - (needs 2019) shows how to make a struct, and how to make an inherited constructor from a class
+		TIMEREVENTS - (uses 2017) this creates a progressbar in WPF
+	Lesson 4 Converting between Types
+
+Chapter 2 - Input/Output(I/O)
+	Lesson 1 Navigating the File System
+		SHOWFILESDEMO (uses 2017) - Lists files and folders in a directory (using recursion)
+		FILEWATCHINGDEMO2 - (uses 2017) watches a directory
+	Lesson 2 Reading and Writing Files
+		FILEDEMO - (uses 2017) reads and writes a file using Stream
+	Lesson 3 Compressing Streams
+		COMPRESSIONDEMO - (uses 2017) shows how to compress and decompress files
+	Lesson 4 Working with Isolated Storage
+		ISOLATEDSTORAGEDEMO - (uses 2017) this writes and reads a file to and from isolated storage
+
+Chapter 3 - Searching, Modifying, and Encoding Text
+	Lesson 1 Formatting Regular Expressions
+		TESTREGEXP - (uses 2017) - a CMD command line program to check if reg expression matches a string
+		REGEXP_EX (uses 2017) Uses regexp to format user inputs and return formatted input		
+	Lesson 2 Encoding and Decoding
+		ENCODINGTEST - (uses 2017) Read and write encoded file
+
+Chapter 4 - Collections and Generics
+	Lesson 1 Collecting Data Items
+		BASICCOLLECTION (uses 2017) ArrayList Demo
+	Lesson 2 Working with Sequential Lists
+		SEQUENTIALCOLLECTIONS (uses 2017) Queue and Stack demo
+	Lesson 3 Working with Dictionaries
+		DICTIONARYCOLLECTIONS (uses 2017) Dictionary demo using a lookup table
+	Lesson 4 Using Specialized Collections
+		LOOKUPCOLLECTIONS (uses 2017) Collection demo using a list (with globalization)
+	Lesson 5 Generic Collections	
+		GENERICCOLLECTIONS - (uses 2017) - Generic Collections demo (Dictionary)
+
+Chapter 5 - Serialization
+	Lesson 1 Serializing Objects
+		SERIALIZEPERSON - (uses 2017) - Class Serialization demo
+	Lesson 2 XML Serialization
+		SERIALIZEPERSON - (uses 2017) - XML Serialization and Deserialization dmeo
+	Lesson 3 Custom Serialization
+		SERIALIZEPERSONCUSTOM - (uses 2017) - Custom Serialization and Deserialization demo
+
+Chapter 6 - Graphics
+	Lesson 1 Drawing Graphics
+		GRAPHICSDEMO - (uses 2017) - This was really just me messing around with graphics
+	Lesson 2 Working with Images 
+		IMAGESANDTEXTDEMO - (uses 2017) - This was just me messing around with images and text
+	Lesson 3 Formatting Text
+		IMAGESANDTEXTDEMO - (uses 2017) - This was just me messing around with images and text
+
+Chapter 7 - Threading
+	Lesson 1 Creating Threads
+		SIMPLETHREADINGDEMO - (uses 2017) - Demo that runs multiple threads
+	Lesson 2 Sharing Data
+		SINGLEINSTANCE - (uses 2017) - Use a mutex or a semaphore demo
+	Lesson 3 The Asynchronous Programming Model
+		THREADPOOLDEMO - (uses 2017) - uses threadpool to queue up methods on separate threads
+
+Chapter 8 - Application Domain and Services
+	Lesson 1 Creating Application Domains
+		APPDOMAINDEMO - (uses 2017) - Demo for loading an assembly by either Filename or Assembly name
+	Lesson 2 Configuring Application Domains
+		APPDOMAINPRIVDEMO - (uses 2017) - demo for creating an application domain with reduced privilages (legacy code)
+	Lesson 3 Creating Windows Services
+		*MONITORWEBSITE - (uses 2017) - Create a service to monitor a website, create the installer, and install, start, and manage the service
+
+Chapter 9 - Installing and Configuring Applications
+	Lesson 1 Configuration Settings
+		* CONNECTIONSTRINGSDEMO - (uses 2017) create a configuration file and store an SQL Server database connection string to it
+	Lesson 2 Creating an Installer
+		? INSTALLERDEMO - (uses 2017) - (Revisit) create custom installer that installs a seaparate C# app
+	Lesson 3 Using the .NET Framework 2.0 Configuration Tool
+		no associated files for this lab
+	Lesson 4 Configuration Management 
+		CONFIGSETTINGSDEMO - (uses 2017) - Read and Write Configuration Settings
+
+Chapter 10 - Instrumentation
+	Lesson 1 Logging Events
+		EVENTLOGDEMO - (uses 2017) - Write event log, must be ran as administrator to work
+	Lesson 2 Debugging and Tracing
+		EVENTLOGTRACEDEMO - (uses 2017) - Create an entry in the event log using the EventLogTraceListener class
+	Lesson 3 Monitoring Performance 
+		PERFORMANCECOUNTERDEMO - (uses 2017) - Create an app and add two performance monitors on it.
+	Lesson 4 Detecting Management Events
+		MANAGEMENTEVENTDEMO - (uses 2017) - Write management event to a log
+		
+		
+			
+		
+
+		 
+		
+
+
+

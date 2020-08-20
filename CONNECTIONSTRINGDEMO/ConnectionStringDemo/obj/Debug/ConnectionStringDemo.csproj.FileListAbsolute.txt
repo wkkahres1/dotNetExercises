@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\bin\Debug\ConnectionStringDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\bin\Debug\ConnectionStringDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\bin\Debug\ConnectionStringDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\obj\Debug\ConnectionStringDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\obj\Debug\ConnectionStringDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\obj\Debug\ConnectionStringDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\CONNECTIONSTRINGDEMO\ConnectionStringDemo\obj\Debug\ConnectionStringDemo.pdb

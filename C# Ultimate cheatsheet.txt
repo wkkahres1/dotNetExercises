@@ -1,0 +1,1015 @@
+C# KEY WORDS and syntax
+
+(C#)
+BASIC STRUCTURE, DATATYPES, USER INPUT, CONSTANTS, ARITHMATIC & ASSIGNMENT
+INCREMENT OPERATORS, PREFIX and POSTFIX FORMS, LOOPS, IF, SWITCH, WHILE, FOR,
+METHODS (VOID, TYPE, STATIC, OVERLOADING, RECURSION ** **) , 
+PASSING ARGUMENTS (REF, OUT),  
+CLASSES OBJECTS (CONSTRUCTOR, DESTRUCTOR PUBLIC PRIVATE ** ) ENCAPSULATION, GETTER, SETTER
+STATIC, STATIC CLASSES examples, THIS, READONLY
+
+(.NET FRAMEWORK)
+COLLECTIONS, ARRAYLIST, SORTING, QUEUE, STACK
+DICTIONARIES, HASHTABLE, SORTEDLIST, LISTDICTIONARY, HYBRIDDICTIONARY,ORDEREDDICTIONARY
+BITARRAY, BITVECTOR32, STRINGCOLLECTION, NAMEVALUECOLLECTION
+GENERIC LIST, GENERIC QUEUE, GENERIC STACK, GENERIC DICTIONARY
+GENERIC SORTEDLIST, GENERIC SORTEDDICTIONARY, GENERIC LINKEDLIST
+GENERIC CLASS STRUCTURE, GENERIC COMPARER
+COLLECTIONBASE, READONLYCOLLECTIONBASE, DICTIONARYBASE
+
+BASIC STRUCTURE - 
+using System;
+
+namespace HelloWorld
+//This is a comment.
+/* so is this */
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+
+DATATYPES - 
+int x = 42;
+double pi = 3.14;
+char y = 'z'
+bool isOnline = true
+string firstname = "Walter"
+var number = 15; //compiler determines datatype
+	//cannot write var num; num = 42 or it will get an error
+
+USER INPUT
+yourname = Console.ReadLine();
+
+CONSTANTS
+const double PI = 3.14;
+	//cannot write const double PI = 3.14; PI = 8; or it will get an error
+
+ARITHMATIC & ASSIGNMENT
++	x+y
+-	x-y
+*	x*y
+/	x/y 
+%	x%y 
+
+INCREMENT OPERATORS 
+x += 2; //equivolent to x = x + 2
+x +- 6; //equivolent to x = x - 6
+x++; // x = x + 1 increment
+x--; // x = x - 1 decrement
+
+PREFIX and POSTFIX FORMS
+++x // prefix - increments the value and THEN proceeds with expression
+/* example
+	int x = 3; int y = ++x;  x is 4, y is 4
+*/
+x++ // postfix - evaluates the expression first and THEN performs increment
+/* example
+	int x = 3; int y = x++; x is 4, y is 3
+*/
+
+LOOPS
+
+IF (can created NESTED IFs)
+
+If (condition) //>=, <=, ==, !=, <, >
+{
+	// if true
+} 
+else if (condition)
+{
+        //if true
+}
+else
+{
+	//no other condition
+}
+
+SWITCH 
+int num = 3;
+switch (num)
+{
+	case 1: // value to be checked ex: num == 1
+	Console.WriteLine("one")
+	break; // <- this ends the conditional check
+	//continue; <- this will continue the conditional check
+	case 2: 
+	Console.WriteLine("two")
+	break;
+        /*  etc */
+	default: //default case
+	Console.WriteLine("This is the default case");
+	break'
+}
+
+WHILE 
+int num = 1;
+while (num < 4)
+{
+	Console.WriteLine(num);
+	num++;
+}
+/*Output
+1
+2
+3
+*/
+
+FOR
+for (int x = 10; x < 15, x++) //you can use X-=2 or x+=3
+{
+	Console.WriteLine("Value of x: {0}", x);
+}
+/* Init and increment statements can be left out but do not remove the semicolon
+ for (; x<15, ;){ }
+*/
+
+METHODS
+ 
+VOID METHOD EXAMPLES (no return)
+static void Print(int x)
+{
+	Console.WriteLine(x);
+}
+
+TYPE METHOD EXAMPLES(return)
+static int Add(int x, int y=2)  //parameters optional (), 
+/*you can add a default value to a parameter and override in the function call*/ 
+{
+	int z = x + y;
+	return z;
+}
+
+OVERLOADING //can reuse methods with different parameter types to overload
+static void Print(double x)
+{
+	Console.WriteLine(x); //this will print a double such as 3.14
+}
+
+RECURSION //method calls itself, classic example is factorial
+static int Fact(int num)
+{
+	if (num == 1)
+	{
+		return 1; //function ends when 1 is returned
+	}
+	else
+	{
+		return Fact(num-1); //recursive call
+	}
+}
+static void
+SIMPLE METHOD CALLS
+static void Main(String[] args)
+{
+	Print(42); //int print call
+	Print(42.25); //double print call
+	Print(Add(3,5)); // this will add 3 and 5 and then print the outcome. Methods can be nested
+	int sum = Add(3,5); //this will put the return value in another variable.
+	int addtwo = Add(3); //this will put 3 in the x value and add the default value of 2 from the method
+        int sum2 = Add(x:3,y:7); //you can provide the argument names in any order using this technique
+	int factorial = Fact(5); //recursion example
+}
+
+PASSING ARGUMENTS (3 WAYS)
+1)value:
+static void Sqr(int x)
+{
+	x = x * x;
+}
+static void Main()
+{
+	int a = 3;
+	Sqr(a);
+	Console.WriteLine(a); 
+}
+//Output 3 - x is the parameter and a is the argument
+// NOTE!!!!! Sqrt does not change the variable value
+
+2)reference
+static void Sqrt(ref int x)
+{
+	x = x * X;
+}
+static void Main()
+{
+	int a = 3;
+	Sqrt(ref a);
+	Console.WriteLIne(a);
+}
+//Output 9 - ref keyword passes the memory address to the method
+/* NOTE!! this allows the method to actually change the actual variable */
+/* Use ref to change the variable within the function call */
+
+3)output
+TRANSFER data FROM the Method rather than into the method
+static void GetValues(out int x, out int y)
+{
+	x = 5;
+	y = 42;
+}
+static void Main(String[] args)
+{
+	int a, b;
+	GetValues(out a, out b);
+	//Now a = 5, b = 42
+}
+
+CLASSES
+
+Defines a datatype but is not an OBJECT itself, OBECT is concrete ENTITY based 
+on class, CUSTOM DATATYPE
+OBJECT is an INSTANCE of a CLASS
+
+OBJECTS have characteristics called PROPERTIES
+
+class BankAccount
+{
+	//variables, methods	
+}
+
+EXAMPLES
+class Person
+{
+
+	//These are fields.  you can set default values or not
+	public int age = 2; //THis is a public member - you can change this outside the class
+	private string name; //THIs is a private member - you cannot change outside the class	
+
+	//This is a property FLEXIBLE METHOD TO READ,WRITE, and COMPUTE value of a private field
+	private string lastname; //field
+	public string Lastname //property <- CAPITAL LETTER OF PRIVATE FIELD
+	{
+		//You can omit an assessor to make it read or write only	
+		//you can make an accessor private so it can be only used within class
+		
+		get {return lastname;}
+		set {lastname = value;}	//value is a keyword that is used here
+	}
+	//auto-implemented property - you do not need to declare private string name separately
+	public string Middlename { get; set;}
+
+	
+	//CONSTRUCTOR - this is special method that runs when new object is created ALWAYS PUBLIC, NO RETURN TYPE
+	//Often used to set initial values if given parameters
+	public Person(string nm)
+	{
+		Console.WriteLine("PERSON CREATED")
+		name = nm;
+	}
+
+	//DESTRUCTOR - this is used when a class is destroyed or deleted and invoked automatically, NO modifiers
+	//or parameters, exactly same name as class with a ~
+	//Useful for releasing resources before leaving a program - closing files, releasing memory
+	~Person()
+	{
+		Console.WriteLine("PERSON REMOVED")
+	}
+
+/* ENCAPSULATION - private members within classes support encapsulation by making them accessible 
+only within the class */
+/*Controls data access, code is more flexible and easy to change w/ new requirements*/
+
+/* private classes can be changed through getters and setter methods */
+	
+	//GETTER
+	public string getName() //type goes here. in this example its a string
+	{
+		return name;	//returns name outside the function
+	}
+
+	//SETTER
+	public void setName(string nm) // sets name outside the function
+	{	
+		name = nm;
+	}	
+
+	
+	public void SayHi() // THIS IS A PUBLIC METHOD - method can be called outside the class anywhere
+	{
+		Console.WriteLine("Hi!");
+	}
+}
+
+
+
+static void Main (string[] args)
+{
+	Person p1 = new Person("Walter"); // <-- creating a new person object named Walter
+	p1.age = 40; // changed the age to 14
+	p1.SayHi()' // person p1 says Hi using public method 
+	Console.Writeline(p.getName()); // this is useing the getter function to write the name
+	
+/*Example of how to accesss property*/
+	Person p2 = new Person("Bob"); 
+	p2.Lastname = "Jones";
+	Console.WriteLIne(p2.Lastname); //Output "Jones"
+	
+	p2.Middlename = "Bee";
+	Console.WriteLine(p2.Middlename); //Outputs "Bee"
+
+}
+
+STATIC mean members belong to class itself and not individual objects, GLOBAL
+No matter how many objects are created there is only one static member copy
+example might be a count to count objects created put in the constructor.
+
+accessed directly by referencing class name and not the object.
+
+class Cat {
+	public static int count = 0; // static field
+	public static string sound = "MEOW!"
+	public const bool hasFUR = true; // static by definition because it is constant	
+
+	public Cat() 
+	{
+		count++;
+	}
+	public static void Meow() //static Method can only access static members
+	{
+		Console.WriteLine(sound);
+	}
+}
+
+class static SomeClass {  // static class can only contain static members!!
+			  // cannot instantiate object of static class
+			  // useful for math functions
+	
+	public static int x { get; set; }
+	public static int Y { get; set; }
+	
+	static SomeClass() {  //static constructor example
+		x = 10;
+		y = 20;
+	}
+}
+
+static void Main(string[] args) //main is ALWAYS static to be able to call a method to main
+{
+	Cat c1 = new Cat();
+	Cat c2 = new Cat();
+	Console.WriteLine(Cat.count); // <- references class directly, objects c1 and c2 not used
+
+	Console.WriteLine(SomeClass.X); // returns 10, 
+}
+
+STATIC CLASSES
+Math 
+Math.PI - constant Pi, Math.E - natual log base e, Math.Max()-returns the larger of two arguments
+Math.Min() - returns smaller of two arguments, Math.Abs() - returns abslue value of its argument
+Math.Sin() - returns the sin of specified edge Math.Cos() - returns the cosin of specified edge
+Math.Pow() - returns specified number raised specified amt Math.Round() - rounds the decimal number to its
+	nearest integral value, Math.Sqrt() - returns the square root of a specified number
+
+Array class has static methods for manipulating arrays
+int[] arr = {1,2,3,4}
+Array.Reverse(arr),
+Array.Sort(arr)
+
+String
+string s1 = "some text"
+string s2 = "some other text"
+String.Concat(s1,s2); // combines the two strings
+String.Equals(s1,s2); // returns false becuase they are not equal
+
+DateTime
+DateTime.Now;
+DateTime.Today;
+DateTime.DaysInMonth(2016,2)
+
+THIS
+keyword used in clas and refers to the current instance of the class.
+used to distinguish class members from other data.
+class Person {	
+	private string name;
+	public Person(string name){this.name = name;}
+}
+
+READONLY
+prevents a member of a class being modified after construction
+class Person {
+	private readonly string name = "John";
+	public Person (String name) {
+		this.name = name;
+	}
+}
+
+COLLECTIONS - using System.Collections
+
+Types -
+ArrayList - resizable,index-based collection of objects
+SortedList - sorted colection of name/value pairs of objects
+Queue - A FIFO collection
+Stack - A LIFO collection
+Hashtable - collection of name/value pairs of objects that allows retrieval by index name
+BitArray - compact collection of Boolean values
+StringCollection - simple resizable collection of Strings
+StringDictionary - a collection of name/value pairs of strings that allows retrieval by name or index
+ListDictionary - efficient collection to store small lists of objects
+HybridDictionary - collection that uses a ListDictionary for storage when the number of items is small and then migrates the items to Hashtable for large collections
+NameValueCollection - collection of name/value pairs of strings that allows retrieval by name or index
+
+ARRAYLIST - 
+ArrayList coll = new ArrayList();
+//add individual items to the collections
+string s = "hello"
+coll.Add(s);
+coll.Add("hi");
+coll.Add(50);
+coll.Add(new object());
+
+//add a range of items to the end of a collection
+string[] anArray = new string[] {"more", "or", "less"};
+coll.AddRange(anArray);
+
+object[] anotherArray = new object[] {new object(), new ArrayList()};
+coll.AddRange(anotherArray);
+
+//Insert items or a range of items in a specific location 
+coll.Insert(3,"Hey All");
+
+string[] moreStrings = new String[] {"goodnight", "see ya"};
+coll.Insert(4. moreStrings)
+
+//to override, just use indexer
+coll[3] = "Overriding the 4th position";
+
+//Removing Items
+coll.Remove("Hey All"); // specific item to remove
+coll.RemoveAt(0) //removes first item in array
+coll.RemoveRange(0,4) //removes first FOUR items in a ray (last is not included ie, 0,1,2,3 are removed but not 4
+
+//Other methods
+string myString = "My String";
+if(coll.Contains(myString)) // test whether object exists in collection
+{
+	int Index = coll.IndexOf(myString); // determines the index of a particular item
+	coll.RemovAt(Index);
+}
+else
+{
+	coll.Clear(); empties collection of everything
+}
+'
+//Iterating over Items in Collection
+ex:
+for (int x=0; x<coll.Count; ++x) //count property allows you to walk through the collection
+{
+	Console.WriteLine(coll[x]);
+}
+
+Interface IEnumberable allows use of Enumerator to access the list --> GetEnumerator method returns IEnumerable interface
+IEnumberable properties - att - Currect: gets the current item in the collection
+			- method - MoveNext: moves to the next collection item, return value determines whether enumerator has reached the end
+			- method - Reset: sets the enumerator to before the first item in the collection to allow movenext to be called to get the first item
+
+IEnumerator enumerator = coll.GetEnumerator();
+while (enumerator.MoveNext())
+{
+	Console.WriteLine(enumerator.Current); //Current enumerator
+}
+
+foreach (object item in coll)
+{
+	Console.WriteLine(item);
+}
+
+another example only using one type
+ArrayList = newColl = new ArrayList();
+newColl.Add("Hello");
+newColl.Add("Goodbye");
+
+foreach (string item in newColl)
+{
+	Console.WriteLine(item);
+}
+
+IEnumerable inteface provides a common way to iterate over a collection
+ICollection interface derives from this so every collections that supports ICollection must also support IEnumerable
+		-att - Count - gets the number of items in the collection
+		-att - IsSynchronized - gets an indicator of whether the collection is 'thread safe'
+		-att - SyncRoot - Gets an object that can be used to synchronize collection
+		-method - CopyTo - copies the contents of a collection into an Array
+
+IList (for simple list collections such as ArrayList) derives from ICollection
+		-att - isFixedSize - Gets an indicator of whether this collection can be resized
+		     - isReadOnly - Gets an indicator of whether this collection can be changed
+		     - Item - Gets or Sets an item at the specific index in the collection
+		-method - Add, Clear, Insert, Remove, RemoveAt - see above for these
+			- Contains - tests whether a specific item is contained in the collection
+			- IndexOf - Finds an item in the collection, and returns the index of the item
+
+SORTING - 
+coll.Sort();
+
+uses Comparer class to do comparisons
+Compare results - less than zero, Left < Right
+		- 0, Left == Right
+		- more than zero, Left > Right
+
+coll.Sort(new CasInsensitiveComparer()); //case insensitive comparer
+
+if you want to do reverse comparison you can right this class
+public class DescendingComparer : IComparer
+{
+	CaseInsensitiveComparer _comparer = new CasInsensitiveComparer();
+	public int Compare (object x, object y)
+	{
+		//Reversing the compared objects to get descending comparisons
+		return _comparer.Compare(y,x);
+	}
+}
+main -> coll.Sort(new DescendingComparer());
+
+QUEUE - First in, First out Sequential List of Sequential Objects
+- combines accessing and removing in the Dequeue method.
+- objects are treated like customer in line.. cares only about who is next and where to add people at the end
+
+att - Count - gets the number of items in the queue
+-method - Dequeue - retrieves an item from the front of the queue, removing it at the same time.
+	- Enqueue - Adds an item to the end of the queue
+	- Peek - Retrieves the first item from the queue without removing it.
+
+Queue q - new Queue();
+q.Enqueue("An Item");
+Console.WriteLine(q.Dequeue()); // removes item from the queue and reads it
+
+//to show in the console (but will dequeue as it goes)
+q.Enqueue("First");
+q.Enqueue("Second");
+q.Enqueue("Third");
+q.Enqueue("Fourth");
+
+while (q.Count > 0)
+{
+	Console.WriteLine(q.Dequeue());
+}
+
+STACK - Last in, Last out like a stack of cards only pulling and placing on the top.
+
+att- Count - gets the number of items in the stack
+method -Pop - Retrieves an item from the top of the stack, removing it at the same time
+       -Push - Adds an item to the top of the stack
+       -Peek - retrieves the top item from the stack without removing it
+
+Stack s = new Stack();
+s.Push("An Item"); // puts an item on the top
+Console.WriteLine(s.Pop()); retrieves the top item
+
+s.Push("First");
+s.Push("Second");
+s.Push("Third");
+s.Push("Fourth");
+ 
+while (s.Count > 0)
+{
+	Console.WriteLine(s.Pop());
+}
+
+//order is reversed
+Fourth
+Third
+Second
+First
+
+DICTIONARIES - maps Key to Value
+
+HASHTABLE - HashTable class used to do mapping
+
+Hashtable emailLookup = newHashtable();
+//Add method takes a Key (first param) and a value (second Parm)
+emailLookup.Add("sbishop@contoso.com","Bishop, Scott");
+//indexer is functional equivalent to Add
+//emailLookup["sbishop@contoso.com"] = "Bishop,Scott";
+
+//to iterate over a hashTable use following
+foreach (DictionaryEntry entry in emailLookup) //DictionaryEntry container for Key and Value
+{
+	Console.WriteLine(entry.Value);
+}//or
+foreach (object name in emailLookup.Values)
+{
+	Console.WriteLine(name);
+}
+
+IDictionary Interface - 
+IDictionary Properties (page 211-212)
+IsFixedSize, IsReadOnly, Item, Keys,Values
+Methods (page 212)
+Add, Clear, Contains, GetEnumerator, Remove
+
+Hashtable methods - ContainsKey, ContainsValue (page 213)
+
+//Equality
+HashTable duplicates = new HashTables();
+duplicates["zFirst"] = "1st";
+duplicates["zFirst"] = "Override the 1st"; //Override the first
+Console.WriteLine(duplicates.Count) // 1
+
+equality example - 
+public class Fish
+{
+	string name; //name of the fish
+	public Fish(string theName)
+	{
+		name = theName
+	}
+
+}
+
+main - 
+Hashtable duplicates = new Hashtable();
+Fish key1 = new Fish("Herring");
+Fish key2 = new Fish("Herring");
+duplicates[key1] = "Hello";
+duplicates[key2] = "Hello";
+Console.WriteLine(duplicates.Count); //1
+
+to see the separate fish you would need to override the Equals method in fish class
+public override bool Equals(object obj)
+{
+	Fish otherFish = obj as Fish
+	if (otherFish == null) return false;
+	return otherFish.name ==name;
+}
+
+Equality outside of the class
+ex to ignore case of the string
+public class InsensitiveComparer : IEqualityComparer
+{
+	CaseInsinsitiveCompare _comparer = new CaseInsensitiveComparer();
+	public int GetHashCode(object obj)
+	{
+		return.obj.ToString().toLowerInvariant().GetHashCode();
+	}
+	public new bool Equals(object x, object y)
+	{
+		if(_comparer.Compare(x,y) == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+}
+
+//main
+Hashtable dehash = newHashTable(new InsensitiveCompare());
+dehash["zFirst"] = "1st"
+dehash["aSecond"] = "2nd"
+dehash["cThird"] = "3rd"
+dehash["cthird"] = "3rd"
+Console.WriteLine(dehash.Count); // 3 cThird and cthird are identical
+
+SORTEDLIST - use IDictionary Interface (page 219)
+properties - Capacity - gets or sets the number of items currently allocated for the collection, not the total count
+	   - Count - gives the number of items in the collection
+Methods	-ContainsKey, ContainsValue, GetByIndex, GetKey, GetKeyList - ordered list of keys, GetValueList - ordered list of values
+	-IndexOfKey, IndexOfValue, RemoveAt - removes at specific value in collection, SetByIndex - replaces a specific value
+	-TrimToSize -Used to free unused capacity inthe collection
+iterate like a HashTable using Dictionary 
+
+-LISTDICTIONARY - use ListDictionary for very small collections - just like HashTable
+
+-HYBRIDDICTIONARY - Use HybridDictionary if you do not how large your collection is - also just like HashTable
+
+-ORDEREDDICTIONARY - functionality of HashTable but need to control the order of the elements
+if you want Items Sorted according to the order of their keys
+extra methods and properties
+(page 222)
+properties - Item - Overload to support access by Index
+Methods	-Insert - Inserts a key/value pair at a specific index in the collection
+	-RemoveAt - Removes a key/value pair at a specific index in the collection 
+
+-BITARRAY - BitArray
+-resizable collection that can store Boolean values, supports bit level operations such as and, not, or, and xor
+-must specify the size of the collection and then change the length property.. does not use Add or Remove
+
+BitArray bits = new BitArray(3);
+bits[0] = false;
+bits[1] = true;
+bits[2] = false;
+BitArray morebits = newBitArray(3);
+morebits[0] = true;
+morebits[1] = true;
+morebits[2] = false;
+BitArray xorBits = bits.Xor(morebits);
+foreach (bool bit in xorBits)
+{
+	Console.WriteLine(bit);
+}
+
+BITVECTOR32 - BitVector32
+-useful for managing individual bits in a larger number
+-stores all data as a single 32 bit intesger
+-you can retrieve stored integer by calling the structures Data property
+
+CreateMask method allows you to create bit masks in sequential order
+
+BitVector32 vector = new BitVector32(0);
+int firstBit = BitVector32.CreateMask(); 
+int secondBit = BitVectore32.CreateMask(firstBit);
+int thirdBit = BitVectore32.CreateMask(secondBit);
+//creates 3 bit masks
+
+//set first and second bit to true
+vector[firstBit] = true;
+vector[secondBit] = true;
+
+//confirm Value is now 3, 1 for first bit, 2 for the second bit = 3
+Console.WriteLine("{0} should be 3", vector.Data)
+
+//write the whole line - not the data property
+Console.WriteLine(vector);
+//BitVector32{0000000000000000000000000000011}    32 zeros
+
+//Create BitVector32 object and set its initial value to 4. turn on bit 3 and off 1 and 2 100 = 4
+BitVector32 vectorTwo = new BitVector32(4);
+
+bool bit1 = vectorTwo[firstBit];
+bool bit2 = vectorTwo[secondBit];
+bool bit3 = vectorTwo[thirdBit];
+//bit1 = false, bit2 = false, bit3 = true;
+
+--
+bit packing is taking several small numbers and packing them into one large number
+-uses Sections of the structure that will be used to store numbers of certain sizes.. creat Sections before you begin
+ex:
+BitVector32.Section firstSection = BitVector32.CreateSection(10); // maximum value
+BitVector32.Section secondSection = BitVector32.CreateSection(50, firtSection);
+BitVector32.Section thirdSection = BitVector32.CreateSection(500, secondSection);
+
+BitVector32 = packedBits = new BitVector32(0);
+packedBits[firstSection] = 10;
+packedBits[secondSection] = 1;
+packedBits[thirdSection] = 192;
+
+Console.WriteLine(packedBits[firstSection]);
+Console.WriteLine(packedBits[secondSection]);
+Console.WriteLine(packedBits[thirdSection]);
+Console.WriteLine(packedBits.Data); //98314
+Console.WriteLine(packedBits);
+//BitVector32 {00000000000000011000000000001010}
+
+STRINGCOLLECTION - StringCollection
+-dynamically sized collection (such as ArrayList that can only store strings)
+-use as an ArrayList
+-can only hold strings and adding a nonstring is a compilation error
+-no longer need to include this code
+//string theString = (string) coll[3]
+
+STRINGDICTIONARY - StringDictionary
+-use jut like HashTable except both keys and values must be strings
+-strings are case insensitive by default for StringDictionary objects unlike HashTable
+
+Case-insensitive Collections 
+- CollectionUtil class that suppporsts creating HashTable and SortedList objects that are 
+case insensitive
+- call CreateCaseInsensitiveHashtable or CreateCaseInsensitiveSortedList
+ex:
+Hashtable inTable = CollectionsUtil.CreateCaseInsensitiveHashtable();
+inTable["hello"] = "Hi";
+inTable["HELLO"] = "Hiya";
+Console.WriteLine(inTable.Count); //1
+
+SortedList inList = CollectionsUtil.CreateCaseInsensitiveSortedList();
+inList["hello"] = "Hi";
+inList["HELLO"] = "Hiya";
+Console.WriteLine(inList.Count); //1
+
+Culture Invariant collections (page 235)
+
+NAMEVALUECOLLECTION - NameValueCollectoin
+-like a StringDictionary exept allows multiple values per key and values can be retrieved by index as well
+
+//multilple values per key
+NameValueCollection nv = new NameValueCollection();
+nv.Add("Key", "Some Text");
+nv.Add("Key", "More Text"); // if you use indexer instead of Add it will override previous - ex nv["Key"] = "More Text"; 
+foreach (string s in nv.GetValues("Key")) //access the values by Calling GetValues and supplying the key
+{
+	Console.WriteLine(s);
+}
+//Some Text
+//More Text
+
+//retrieve itrmd by key index
+nv.Add("First","1st");
+nv.Add("Second","2nd");
+nv.Add("Second","Not First);
+for (int x=0;x<nv.Count,++x)
+{
+	Console.WriteLine(nv[x])
+}
+//1st
+//2nd,Not First //List
+
+GENERIC COLLECTIONS - 
+use generic types that take other type names to define them as a type
+
+ex:
+public class MyList<T> : ICollection, IEnumerable  //<-- T is replaced with type name during compilation
+//public class IntList: ICollection, IEnumberable   <-- integer only code
+{
+	private ArrayList _innerList = new ArrayList();
+	public void Add(T val)
+	//public void Add(int num)
+	{
+		_innerlist.Add(val);
+		//_innerlist.Add(num);
+	}
+	
+	public T this[int index]
+	//public int this[int index]
+	{
+		get
+		{
+			return (T)_innerList[index];
+			//return (int)_innerList[Index];
+		}
+	}
+}
+//create a collection of generic type parameter T.  
+//Put parameter T in ever place that would type an ArrayList with int
+
+MyList<int> myIntList = new MyList<int>();
+myIntList.Add(1); // myIntList.Add("4"); does not compile!
+
+myList<String> myStringList = new MyList<String>();
+myStringList.Add("1"); //myStringList.Add(2); does not compile!
+
+GENERIC EQUIVALENTS ALREADY EXIST FOR MOST OF THE CLASSES DISCUSSED ALREADY
+ArrayList - List<>, Queue - Queue<>, Stack - Stack<>, SortedList - SortedList<>, 
+SortedDictionary - SortedDictionary<>, DictionaryEntry - KeyValuePair<>,
+StringCollection - List<String>, StringDictionary - Dictionary<String>
+Hashtable, ListDictionary, HybridDictionary, OrderedDictionary, NameValueCollection  - Dictionary<>
+LinkedList<> <-- Always Generic
+
+GENERIC LIST - generic list class is used to create simple type-safe ordered lists of objects
+Add - to add items to the list but the items MUST MATCH type specified in generic parameter
+indexer syntax will retrieve items of the list type
+foreach syntax will iterate over the list
+
+List<int> intList = new List<int>();
+intList.Add(1);
+intList.Add(2);
+int number = intList[0];
+foreach (int i in intList)
+{
+	Console.WriteLine(1);
+}
+ 
+Generic Sort supports generic delegate - (like generic class or structures but are used to only define 
+the calling convention of the delegate)
+
+public delegate int Comparison<T>
+{
+	T x,
+	T y,
+}
+
+static int ReverseIntComparison(int x, int y)
+{
+	return y - x;
+}
+
+intList.Sort(ReverseIntComparison); 
+
+GENERIC QUEUE - create new instances supplying the generic type parameter of the type to hold
+Enqueue adds items but items must match type specified, can also dequeue.
+ex:
+Queue<String> que = new Queue<String>();
+que.Enqueue("Hello");
+String queued = que.Dequeue;
+
+GENERIC STACK - create new instances supplying the generic type parameter of the type to hold
+Push adds items but items must match type specified, can also Pop
+ex:
+Stack<int> serials = new Stack<int>();
+serials.Push(1);
+int serialNumber = serials.Pop();
+
+GENERIC DICTIONARY - resembles Hashtable, ListDictionary, and Hybrid Dictionary classes
+-used to store a key/value pair in a collection
+1-Create an instance of the generic Dictionary class specifying key type and value type
+2-use indexer to add or retrieve items in the dictionary but types must match generic type parameter
+ex
+Dictionary<int,string> dict = new Dictionary<int,string>();
+dict[3]= "Three";
+dict[4]= "Four";
+dict[1]= "One";
+dict[2]= "Two";
+String str = dict[3];
+
+//does not use DictionaryEntry to iterate, uses new generic type KeyValuePair
+1-Create a foreach loop specifying generic KeyValuePair class as the type of object to be returned (must match datatypes in Dictionary)
+2-Inside the foreach block, use KeyValuePair to retrieve keys and values with properties called Key and Value
+foreach (KeyValuePair<int, string> i in dict)
+{
+	Console.WriteLine("{0} = {1}", i.Key, i.Value)
+}
+
+GENERIC SORTEDLIST, GENERIC SORTEDDICTIONARY - sorted by the key of collection
+1-Create instance of SortedList specifying the key and generic type
+2-use indexer syntax to add or retrieve items in the SortedList but types must match generic types of sorted list
+3-Create a foreach loop, specifying generic KeyValuePair class as the type of object to be returned in each iteration, must match 
+  SortedList
+4-inside foreach block, use the KeyValuePair to retrieve the keys and values with properties called Key and Value
+
+SortedList<string,int> sortList = new SortedList<string,int>();
+sortList["One"] = 1;
+sortList["Two"] = 2;
+sortList["Three"] = 3;
+foreach (KeyValuePair<string,int> i in sortList)
+{
+	Console.WriteLine[i];
+}
+
+GENERIC LINKEDLIST - set of items linked together navigated to next or previous item without having to access collection
+(useful for passing around objects that need to know about their siblings)
+properties 	- Count - Gets the number of nodes in a LinkedList
+	 	- First - Gets the first node in the Linked List
+		- Last - Gets the last node in the Linked List
+methods 	- AddAFter - Adds a new node after an existing node in Linked List
+		- AddBefore - Adds a new node before an existing node in Linked List
+		- AddFirst - Adds a new node at the beginnng of a linked list
+		- AddLast - Adds a new node at the end of the linked list
+		- Clear - Removes all the nodes from the linked list
+		- Contains - Tests to see whether a value is contained within a linked list
+		- CopyTo - Copies the entire LinkedList to an Array
+		- Find - Locates the first node containing the specified value
+		- FindLast - locates the last node containing the specified value
+		- Remove - Removes the first occurance of a value or node from Linked List
+		- RemoveFirst - Removes the first item from linked list
+		- RemoveLast - Removes the last item from Linked list
+
+LinkedList contains a collection of LinkedListNode objects
+properties 	- List - Gets the LinkedList that the node belongs to 
+		- Next - Gets the next node in the LinkedList
+		- Previous - Gets the previous node in the LInkedList
+		- Value - Gets the vlue contained in the Node
+- use AddFirst and AddLast methods to add items to the beginning and end of the list, Returns linked list node if specifying the
+   value in these methods,  
+- use AddBefore and AddAFter to add values in the middle.
+- use foreach to iterate over the values in linked list, only values, not the nodes 
+
+ex:
+LinkedList<String> links = new LinkedList<string>();
+LinkedListNode<string> first = links.AddLast("First");
+LinkedListNode<string> last = links.AddFirst("Last");
+LinkedListNode<string> second = links.AddBefore(last,"Second");
+links.AddAfter(second,"Third");
+foreach (string s in links)
+{
+	Console.WriteLine(s);
+}
+
+GENERIC CLASS STRUCTURE
+-IEnumerable, ICollection, IList and so on... define consistant interface accross collections
+ex: 
+IList theList = (IList)stringList;
+object firstItem = theList[0];
+//or generically
+IList<string> typeSafeList = (IList<String>)stringList;
+String firstString = typeSafeList[0];
+**Use generic version if you are working with generic collections but
+want to work with interfaces instead of specified class
+
+GENERIC COLLECTION ENUMERATORS
+ex:
+List<string> stringList = new List<string>
+// ...
+List<string>.Enumerator e = stringList.GetEnumerator
+while (e.MoveNext())
+{
+	//Typesafe access to the current item
+	string s = e.Current;
+}
+
+GENERIC COMPARISONS
+generic Comparer class and generic EqualityComparer class
+-if you need to implement your own comparison logic, inherit from these base classes, implement any abstract methods,
+ and override any default behavior you need
+ex:
+class MyComparer<T> : Comparer<T>
+{
+	public override int Compare(T x, T y)
+	{
+		return x.GetHashCode() - y.GetHashCode();
+	}
+}
+
+COLLECTIONBASE, READONLYCOLLECTIONBASE, DICTIONARYBASE
+CollectionBase, ReadOnlyCollectionBase, DictionaryBase
+These base classes can be used asthe basis of a collection of your own.
+CollectionBase supports IList, IEnumerable, and ICollection interfaces.
+- inheriting from the CollectionBase allows you to have a collection that already supports these interfaces
+- Read ONly difference is it does not support changing the collection from outside the class - read only to users
+DictionaryBase implements IDictionary, IEnumerable, and ICollection intefrface, used for your own keyed collection.
+GENERICS can be used for most collections

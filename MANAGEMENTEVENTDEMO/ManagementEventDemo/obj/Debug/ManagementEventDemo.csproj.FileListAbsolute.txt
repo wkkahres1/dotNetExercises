@@ -1,0 +1,7 @@
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\bin\Debug\ManagementEventDemo.exe.config
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\bin\Debug\ManagementEventDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\bin\Debug\ManagementEventDemo.pdb
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\obj\Debug\ManagementEventDemo.csprojAssemblyReference.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\obj\Debug\ManagementEventDemo.csproj.CoreCompileInputs.cache
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\obj\Debug\ManagementEventDemo.exe
+C:\Users\wkkah\OneDrive\Walter\Programming Training\C#\Programs\First Cs Project\MANAGEMENTEVENTDEMO\ManagementEventDemo\obj\Debug\ManagementEventDemo.pdb
